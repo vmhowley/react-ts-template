@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import Sidebar from "./Sidebar"
-import Navbar from "./Navbar"
+import Sidebar from "@layout/Sidebar"
+import Navbar from "@layout/Navbar"
 
 export default function AppLayout() {
     return (
@@ -10,7 +10,7 @@ export default function AppLayout() {
             <div className="flex flex-col flex-1">
                 <Navbar />
 
-                <main className="p-6 overflow-y-auto">
+                <main className="p-4 md:p-6 overflow-y-auto">
                     <Outlet />
                 </main>
             </div>

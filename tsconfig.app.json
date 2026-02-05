@@ -26,7 +26,22 @@
   },
   "baseUrl": ".",
   "paths": {
-    "@/*": ["src/*"]
+      "@/*": ["src/*"],
+
+      "@app/*": ["src/app/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@ui/*": ["src/components/ui/*"],
+      "@layout/*": ["src/components/layout/*"],
+
+      "@features/*": ["src/features/*"],
+
+      "@hooks/*": ["src/hooks/*"],
+      "@services/*": ["src/services/*"],
+      "@store/*": ["src/store/*"],
+      "@styles/*": ["src/styles/*"],
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"]
   },
   "include": ["src"]
   
