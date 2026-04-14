@@ -1,3 +1,15 @@
+## 🤖 AI-Optimized Template
+
+This project is optimized for AI-assisted development.
+
+To ensure best results:
+
+- Follow GEMINI.md for coding standards
+- Follow AGENTS.md for AI behavior
+- Follow project structure strictly
+
+⚠️ Do not ignore these files when using AI tools like Cursor or Copilot.
+
 # 🚀 React SaaS Starter Template (Vite + TS + Arquitectura Pro)
 
 Template base para construir aplicaciones tipo **dashboard, SaaS, ERP o sistemas administrativos** usando:
